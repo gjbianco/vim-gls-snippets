@@ -19,8 +19,11 @@ snippet admon "admonition note, warning, important"
 	$0
 	====
 
-snippet key 
+snippet key "keyboard keypress"
 	kbd:[${1:Ctrl+c}]
 
-snippet btn
+snippet btn "on-screen clickable UI element"
 	btn:[${1:Submit}]
+
+snippet img "image/screenshot from assets directory"
+	image::assets/${1:imagename}.png[align="center"]
