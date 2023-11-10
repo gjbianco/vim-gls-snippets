@@ -5,11 +5,11 @@ snippet comm "command example"
 	[subs="+attributes,+quotes"]
 	----
 	[student@workstation ${3:~}]\$ *$1*
-	${2:...output omitted...}
+	${2:_...output omitted..._}
 	----
 
 snippet omit "output omitted"
-	...output omitted...
+	_...output omitted..._
 
 snippet nout "no output"
 	_no output expected_
@@ -31,3 +31,18 @@ snippet btn "on-screen clickable UI element"
 
 snippet img "image/screenshot from assets directory"
 	image::assets/${1:imagename}.png[align="center"]
+
+snippet rh "Red Hat with nbsp"
+	Red{nbsp}Hat
+
+snippet eap "short name for EAP"
+	JBoss EAP
+
+snippet rheap "full name for EAP"
+	Red{nbsp}Hat JBoss Enterprise Application Platform (JBoss EAP)
+
+snippet xkeyword "expansion for section keyword combo"
+	{gls_lab_script}
+
+snippet xcourse "expansion for course SKU"
+	{gls_book_sku}
